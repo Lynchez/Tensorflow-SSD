@@ -35,3 +35,5 @@ python trainer.py -handle-gpu
 ## Writing TFlite Soon
 
 ## Custom Dataset Train Soon
+
+## Easy Colab Trainer Soon
