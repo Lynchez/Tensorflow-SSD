@@ -28,7 +28,10 @@ If you have GPU issues you can use **-handle-gpu** flag with these commands:
 python trainer.py -handle-gpu
 ```
 
-## Examples
+## Sample output :
 
+![](examples/test.jpeg)
 
 ## Writing TFlite Soon
+
+## Custom Dataset Train Soon
