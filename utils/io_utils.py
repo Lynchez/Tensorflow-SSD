@@ -49,7 +49,7 @@ def is_valid_backbone(backbone):
         backbone = given string from command line
 
     """
-    assert backbone in ["mobilenet_v2", "vgg16"]
+    assert backbone in ["mobilenet_v2","vgg16","vgg19","densenet","efficientnetb1"]
 
 def handle_gpu_compatibility():
     """Handling of GPU issues for cuDNN initialize error and memory issues."""
