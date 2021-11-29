@@ -6,12 +6,13 @@ It's implemented and tested with **tensorflow 2.0, 2.1, and 2.2**
 
 ## Usage
 
-There are five different backbone, 
-    **Mobilenet_v2**
-    **DenseNet121**
-    **VGG16**
-    **VGG19**
-    **EfficientNetB1**.
+There are five different backbone
+
+**Mobilenet_v2**
+**DenseNet121**
+**VGG16**
+**VGG19**
+**EfficientNetB1**
 
 You can easily specify the backbone to be used with the **--backbone** parameter.
 
