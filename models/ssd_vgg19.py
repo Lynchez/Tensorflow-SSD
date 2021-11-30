@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras.applications.vgg19 import VGG19
-from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import Conv2D , Input
 from tensorflow.keras.models import Model
 from .header import get_head_from_outputs
 
@@ -14,7 +14,7 @@ def get_model(hyper_params):
     """
     img_size = hyper_params["img_size"]
     base_model = VGG19(include_top=False, input_shape=(img_size, img_size, 3))
-    input = base_model.input
+    input = Input(shape=(None, None, 3), name="input")
     first_conv = base_model.get_layer("block5_pool").output
     second_conv = base_model.output
     #

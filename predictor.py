@@ -8,7 +8,7 @@ if args.handle_gpu:
 
 batch_size = 32
 evaluate = False
-use_custom_images = False
+use_custom_images = True
 custom_image_path = "data/images/"
 backbone = args.backbone
 io_utils.is_valid_backbone(backbone)
